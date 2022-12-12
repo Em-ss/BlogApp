@@ -1,0 +1,122 @@
+.create-form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.create-conteiner {
+    width: 938px;
+    /* height: 701px; */
+    margin-left:auto;
+    margin-right: auto;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.create-submit {
+    width: 319px;
+    margin-left:30px;
+    margin-bottom: 15px;
+}
+
+
+.create-title {
+    text-align: center;
+    display: inline-block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:48px;
+    margin-bottom: 21px;
+    width: 938px;
+
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+
+
+color: #262626;
+}
+
+
+.create-info {
+    width: 874px;
+    margin-left:auto;
+    margin-right: auto;
+
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+}
+
+.create-conteiner p {
+    color:tomato;
+}
+.create-conteiner input {
+    /* color: #BFBFBF; */
+    border: 1px solid #D9D9D9;
+border-radius: 4px;
+height: 40px;
+}
+
+.create-submit {
+    background: #1890FF;
+    color:white;
+    cursor: pointer;
+}
+
+.create-text {
+    min-height: 168px;
+}
+ul {
+    list-style-type: none;
+    padding-left: 32px;
+    display: inline-block;
+}
+
+.btn-delete {
+
+    border: 1px solid tomato;
+    color:tomato;
+    margin-left: 15px;
+    background-color:white;
+    height: 40px;
+    border-radius:5px;
+
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+cursor: pointer;
+
+}
+
+.btn-add {
+    display: inline-block;
+    width: 80px;
+    margin-left: 30px;
+
+    border: 1px solid #1890FF;
+    color:#1890FF;
+  
+    background-color:white;
+    height: 40px;
+    border-radius:5px;
+
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+cursor: pointer;
+
+
+}
+
+.create-form li {
+    margin-bottom: 10px;
+}

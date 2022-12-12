@@ -1,0 +1,144 @@
+.list {
+    background-color: rgba(255, 255, 255, 1);
+    margin-bottom: 26px;
+    display: flex;
+    width: 941px;
+    height: 140px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.list-like {
+    display: inline-block;
+    margin-left: 5px;
+}
+.list-like-img {
+    margin-right: 5px;
+}
+
+.list-profile {
+    display: flex;
+}
+.list-box-title {
+margin-top:15px;
+margin-top:6px;
+width: 682px;
+height: 28px;
+left: 16px;
+top: 15px;
+
+}
+
+.list-box-title span {
+    font-family: 'Inter UI';
+    font-size: 20px;
+    line-height: 28px;
+    align-items: center;
+    color: #1890FF ;
+}
+
+
+.list-box-tag {
+    margin-top:6px;
+}
+.list-box-tag span{
+    margin-top:6px;
+    max-width: 60px;
+    display: inline-block;
+    box-sizing: border-box;
+    background: white;
+    border: 1px solid #D9D9D9;
+    border-radius: 2px;
+    margin-right: 3px;
+    padding:3px;
+   
+    font-size: 12px;
+    vertical-align: middle;
+
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+/* @text-color-secondary */
+
+color: rgba(0, 0, 0, 0.5);
+}
+
+
+.list-box-info {
+    width: 682px;
+height: 45px;
+margin-top:15px;
+}
+
+.list-box-info span {
+    font-family: 'Inter UI';
+font-size: 12px;
+line-height: 22px;
+/* or 183% */
+
+
+/* @text-color */
+
+color: rgba(0, 0, 0, 0.75);
+}
+
+
+div.ant-typography, .ant-typography p {
+    margin-bottom: 0;
+}
+
+.list-profile-box {
+    flex-grow: 3;
+}
+
+.list-box {
+    flex-grow: 3; 
+    margin-left:19px 
+}
+
+.list-profile-img {
+    width: 46px;
+    height: 46px;
+    margin-top:7.5px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.list-profile-name {
+    margin-top:15px;
+    margin-right: 12px;
+    font-family: 'Inter UI';
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+
+
+align-items: center;
+
+/* @heading-color */
+
+color: rgba(0, 0, 0, 0.85);
+}
+
+.list-profile-date {
+    width: 83px;
+height: 22px;
+
+/* @font-size-sm: 12px */
+
+font-family: 'Inter UI';
+font-size: 10px;
+line-height: 22px;
+/* identical to box height, or 183% */
+
+
+align-items: center;
+
+/* @text-color-secondary */
+
+color: rgba(0, 0, 0, 0.5);
+}

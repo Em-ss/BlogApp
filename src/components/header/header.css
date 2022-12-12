@@ -1,0 +1,36 @@
+.header {
+    background-color:white;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 26px;
+}
+
+.btn {
+border:none;
+background-color:white;
+margin-right: 24px;
+margin-bottom: 14px;
+margin-top:14px;
+padding: 5px;
+margin-left: 2px;
+color:black;
+
+/* font-family: 'Inter UI'; */
+font-size: 18px;
+line-height: 28px;
+
+color: rgba(0, 0, 0, 0.85);
+
+}
+
+.btn:hover {
+border:2px solid rgba(82, 196, 26, 1);
+color: rgba(82, 196, 26, 1);
+border-radius: 5px;
+margin-right: 22px;
+margin-bottom: 12px;
+margin-top:12px;
+margin-left: 0;
+padding: 5px;
+cursor: pointer;
+}
